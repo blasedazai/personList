@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Soru5</title>
+</head>
+<body>
+    <p>Bulaşıkları elde yıkadığınızda, bulaşık makinesinde kullandığınız suyun 3-6 kat daha fazlasını harcarsınız.</p>
+    <p>Evde bulaşıkları bulaşık makinesinde ve makine tam dolduğunda yıkarım.</p>
+    <input type="radio" name="radio" value="Evet" id="answer-yes">
+    <label for="1">Evet</label>
+    <input type="radio" name="radio" value="Hayır" id="answer-no">
+    <label for="0">Hayır</label>
+    <input type="button" value="Önceki soru" id="last-button" onclick="Filter.Actions.lastPage()">
+    <input type="button" value="Testi Bitir" id="button" onclick="Filter.Actions.finishTest()">
+
+    <script> var question=5; </script>
+    <script src="Content/Js/question.js">
+    </script>
+</body>
+</html>
